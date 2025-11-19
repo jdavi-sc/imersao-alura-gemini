@@ -1,0 +1,44 @@
+[
+{
+    "nome": "JavaScript",
+    "ano": 1995,
+    "descricao": "JavaScript é uma linguagem da web",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+},
+
+{
+    "nome": "Python",
+    "ano": 1991,
+    "descricao": "Python é uma linguagem da ciência de dados e I.A",
+    "link": "https://docs.python.org/pt-br/3.14/"
+},
+
+{
+    "nome": "Java",
+    "ano": 1995,
+    "descricao": "Java é uma linguagem de programação versátil e multiplataforma.",
+    "link": "https://docs.oracle.com/en/java/"
+},
+
+{
+    "nome": "C#",
+    "ano": 2000,
+    "descricao": "C# (C Sharp) é uma linguagem moderna desenvolvida pela Microsoft.",
+    "link": "https://docs.microsoft.com/pt-br/dotnet/csharp/"
+},
+
+{
+    "nome": "TypeScript",
+    "ano": 2012,
+    "descricao": "Um superset do JavaScript que adiciona tipagem estática.",
+    "link": "https://www.typescriptlang.org/docs/"
+},
+
+{
+    "nome": "PHP",
+    "ano": 1995,
+    "descricao": "PHP é uma linguagem de script popular para desenvolvimento web.",
+    "link": "https://www.php.net/manual/pt_BR/"
+}
+
+]
