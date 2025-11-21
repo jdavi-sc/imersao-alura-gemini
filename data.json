@@ -1,44 +1,341 @@
 [
-{
+  {
     "nome": "JavaScript",
-    "ano": 1995,
+    "data_criacao": "1995",
     "descricao": "JavaScript é uma linguagem da web",
     "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
-},
-
-{
+  },
+  {
     "nome": "Python",
-    "ano": 1991,
+    "data_criacao": "1991",
     "descricao": "Python é uma linguagem da ciência de dados e I.A",
     "link": "https://docs.python.org/pt-br/3.14/"
-},
-
-{
+  },
+  {
     "nome": "Java",
-    "ano": 1995,
+    "data_criacao": "1995",
     "descricao": "Java é uma linguagem de programação versátil e multiplataforma.",
     "link": "https://docs.oracle.com/en/java/"
-},
-
-{
+  },
+  {
     "nome": "C#",
-    "ano": 2000,
+    "data_criacao": "2000",
     "descricao": "C# (C Sharp) é uma linguagem moderna desenvolvida pela Microsoft.",
     "link": "https://docs.microsoft.com/pt-br/dotnet/csharp/"
-},
-
-{
+  },
+  {
     "nome": "TypeScript",
-    "ano": 2012,
+    "data_criacao": "2012",
     "descricao": "Um superset do JavaScript que adiciona tipagem estática.",
     "link": "https://www.typescriptlang.org/docs/"
-},
-
-{
+  },
+  {
     "nome": "PHP",
-    "ano": 1995,
+    "data_criacao": "1995",
     "descricao": "PHP é uma linguagem de script popular para desenvolvimento web.",
     "link": "https://www.php.net/manual/pt_BR/"
-}
-
+  },
+  {
+    "nome": "React",
+    "descricao": "Uma biblioteca JavaScript para construir interfaces de usuário, mantida pelo Facebook (Meta).",
+    "data_criacao": "2013",
+    "link": "https://reactjs.org/",
+    "tags": [
+      "biblioteca",
+      "frontend",
+      "desenvolvimento web",
+      "componentes"
+    ]
+  },
+  {
+    "nome": "Go",
+    "descricao": "Linguagem de programação compilada, tipada estaticamente, desenvolvida pelo Google, focada em eficiência e concorrência.",
+    "data_criacao": "2009",
+    "link": "https://go.dev/",
+    "tags": [
+      "linguagem de programação",
+      "backend",
+      "sistemas",
+      "golang"
+    ]
+  },
+  {
+    "nome": "Rust",
+    "descricao": "Linguagem de programação de sistemas focada em segurança, desempenho e concorrência, patrocinada pela Mozilla.",
+    "data_criacao": "2010",
+    "link": "https://www.rust-lang.org/",
+    "tags": [
+      "linguagem de programação",
+      "sistemas",
+      "memória segura",
+      "baixo nível"
+    ]
+  },
+  {
+    "nome": "Kotlin",
+    "descricao": "Linguagem de programação moderna, concisa e pragmática, compatível com Java Virtual Machine (JVM) e popular para desenvolvimento Android.",
+    "data_criacao": "2011",
+    "link": "https://kotlinlang.org/",
+    "tags": [
+      "linguagem de programação",
+      "jvm",
+      "android",
+      "backend"
+    ]
+  },
+  {
+    "nome": "Swift",
+    "descricao": "Linguagem de programação multiparadigma desenvolvida pela Apple para construir aplicativos para iOS, macOS, watchOS e tvOS.",
+    "data_criacao": "2014",
+    "link": "https://www.swift.org/",
+    "tags": [
+      "linguagem de programação",
+      "mobile",
+      "apple",
+      "compilada"
+    ]
+  },
+  {
+    "nome": "Node.js",
+    "descricao": "Ambiente de execução (runtime) de código JavaScript assíncrono e baseado em eventos, utilizado para construir aplicações de rede escaláveis.",
+    "data_criacao": "2009",
+    "link": "https://nodejs.org/en/",
+    "tags": [
+      "runtime",
+      "backend",
+      "servidor",
+      "assíncrono"
+    ]
+  },
+  {
+    "nome": "MongoDB",
+    "descricao": "Banco de dados NoSQL orientado a documentos, conhecido por sua flexibilidade de esquema e escalabilidade horizontal.",
+    "data_criacao": "2009",
+    "link": "https://www.mongodb.com/",
+    "tags": [
+      "banco de dados",
+      "nosql",
+      "documentos",
+      "persistência"
+    ]
+  },
+  {
+    "nome": "PostgreSQL",
+    "descricao": "Sistema de gerenciamento de banco de dados objeto-relacional de código aberto, conhecido por sua robustez e conformidade com padrões SQL.",
+    "data_criacao": "1996",
+    "link": "https://www.postgresql.org/",
+    "tags": [
+      "banco de dados",
+      "relacional",
+      "sql",
+      "open source",
+      "orm"
+    ]
+  },
+  {
+    "nome": "Docker",
+    "descricao": "Plataforma que permite automatizar a implantação de aplicativos dentro de containers leves e portáteis.",
+    "data_criacao": "2013",
+    "link": "https://www.docker.com/",
+    "tags": [
+      "containerização",
+      "devops",
+      "virtualização",
+      "ferramenta"
+    ]
+  },
+  {
+    "nome": "Kubernetes",
+    "descricao": "Sistema open-source para automação de implantação, dimensionamento e gerenciamento de aplicações em containers.",
+    "data_criacao": "2014",
+    "link": "https://kubernetes.io/",
+    "tags": [
+      "orquestração",
+      "devops",
+      "containers",
+      "cluster"
+    ]
+  },
+  {
+    "nome": "Vue.js",
+    "descricao": "Framework progressivo de frontend, focado em ser incrementalmente adaptável e fácil de integrar.",
+    "data_criacao": "2014",
+    "link": "https://vuejs.org/",
+    "tags": [
+      "framework",
+      "frontend",
+      "desenvolvimento web",
+      "spa"
+    ]
+  },
+  {
+    "nome": "Angular",
+    "descricao": "Plataforma de desenvolvimento baseada em componentes e mantida pelo Google, ideal para Single Page Applications (SPAs) complexas.",
+    "data_criacao": "2016",
+    "link": "https://angular.io/",
+    "tags": [
+      "framework",
+      "frontend",
+      "desenvolvimento web",
+      "google",
+      "spa"
+    ]
+  },
+  {
+    "nome": "Terraform",
+    "descricao": "Ferramenta de Infrastructure as Code (IaC) que permite provisionar e gerenciar infraestrutura usando arquivos de configuração declarativos.",
+    "data_criacao": "2014",
+    "link": "https://www.terraform.io/",
+    "tags": [
+      "devops",
+      "iac",
+      "cloud computing",
+      "automação"
+    ]
+  },
+  {
+    "nome": "Redis",
+    "descricao": "Banco de dados em memória, de código aberto, usado como cache, message broker e armazenamento de sessões.",
+    "data_criacao": "2009",
+    "link": "https://redis.io/",
+    "tags": [
+      "banco de dados",
+      "nosql",
+      "cache",
+      "in-memory"
+    ]
+  },
+  {
+    "nome": "Spring Boot",
+    "descricao": "Framework para simplificar a criação de aplicações Spring autônomas e prontas para produção, baseado na convenção sobre configuração.",
+    "data_criacao": "2014",
+    "link": "https://spring.io/projects/spring-boot",
+    "tags": [
+      "framework",
+      "backend",
+      "jvm",
+      "microsserviços"
+    ]
+  },
+  {
+    "nome": "Express",
+    "descricao": "Framework de aplicação web minimalista e flexível para Node.js, amplamente utilizado para construir APIs REST.",
+    "data_criacao": "2010",
+    "link": "https://expressjs.com/",
+    "tags": [
+      "framework",
+      "backend",
+      "nodejs",
+      "api"
+    ]
+  },
+  {
+    "nome": "Ruby",
+    "descricao": "Linguagem de programação dinâmica, orientada a objetos, com foco na simplicidade e produtividade (frequentemente usada com Rails).",
+    "data_criacao": "1995",
+    "link": "https://www.ruby-lang.org/en/",
+    "tags": [
+      "linguagem de programação",
+      "backend",
+      "web development",
+      "dinâmica"
+    ]
+  },
+  {
+    "nome": "Svelte",
+    "descricao": "Framework/compilador que move o trabalho reativo para a etapa de construção, resultando em código de aplicação muito pequeno e rápido.",
+    "data_criacao": "2016",
+    "link": "https://svelte.dev/",
+    "tags": [
+      "framework",
+      "frontend",
+      "compilador",
+      "reatividade"
+    ]
+  },
+  {
+    "nome": "GraphQL",
+    "descricao": "Linguagem de consulta e tempo de execução para APIs, que permite aos clientes solicitar exatamente os dados de que precisam.",
+    "data_criacao": "2015",
+    "link": "https://graphql.org/",
+    "tags": [
+      "api",
+      "protocolo",
+      "backend",
+      "dados"
+    ]
+  },
+  {
+    "nome": "Jenkins",
+    "descricao": "Servidor de automação open source amplamente utilizado para orquestrar pipelines de Continuous Integration e Continuous Delivery (CI/CD).",
+    "data_criacao": "2011",
+    "link": "https://www.jenkins.io/",
+    "tags": [
+      "devops",
+      "ci/cd",
+      "automação",
+      "ferramenta"
+    ]
+  },
+  {
+    "nome": "AWS Lambda",
+    "descricao": "Serviço de computação serverless que executa código em resposta a eventos e gerencia automaticamente os recursos computacionais.",
+    "data_criacao": "2014",
+    "link": "https://aws.amazon.com/lambda/",
+    "tags": [
+      "serverless",
+      "cloud computing",
+      "aws",
+      "funções"
+    ]
+  },
+  {
+    "nome": "MySQL",
+    "descricao": "Sistema de gerenciamento de banco de dados relacional de código aberto, um dos mais populares e amplamente utilizados no mercado.",
+    "data_criacao": "1995",
+    "link": "https://www.mysql.com/",
+    "tags": [
+      "banco de dados",
+      "relacional",
+      "sql",
+      "open source"
+    ]
+  },
+  {
+    "nome": "Cassandra",
+    "descricao": "Sistema de banco de dados NoSQL distribuído e altamente escalável, projetado para lidar com grandes quantidades de dados em clusters.",
+    "data_criacao": "2008",
+    "link": "https://cassandra.apache.org/",
+    "tags": [
+      "banco de dados",
+      "nosql",
+      "distribuído",
+      "big data"
+    ]
+  },
+  {
+    "nome": "OpenTofu",
+    "descricao": "Um fork open-source e orientado pela comunidade do Terraform, mantendo a compatibilidade e a licença permissiva.",
+    "data_criacao": "2023",
+    "link": "https://opentofu.org/",
+    "tags": [
+      "iac",
+      "devops",
+      "automação",
+      "infraestrutura",
+      "ferramenta"
+    ]
+  },
+  {
+    "nome": "Elixir",
+    "descricao": "Linguagem dinâmica funcional construída sobre a máquina virtual Erlang (BEAM), focada em construir sistemas distribuídos e tolerantes a falhas.",
+    "data_criacao": "2012",
+    "link": "https://elixir-lang.org/",
+    "tags": [
+      "linguagem de programação",
+      "funcional",
+      "backend",
+      "concorrência"
+    ]
+  }
 ]
